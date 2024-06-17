@@ -30,8 +30,8 @@ const LinkPreview = ({ name, imgUrl, description, url, icons }: Props) => {
         />
       </HoverCardTrigger>
       <HoverCardContent className='max-w-[230px] h-auto'>
-        <p>{name}</p>
-        <p className='text-sm text-zinc-700'>{description}</p>
+        <div>{name}</div>
+        <div className='text-sm text-zinc-700'>{description}</div>
         <div className='flex flex-row my-2'>
           {icons.map((icon, index) => (
             <Image key={index} src={icon} alt='Icon' width={40} height={40} />

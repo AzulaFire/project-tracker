@@ -32,7 +32,7 @@ const myPage = 'https://projects.azulafire.com/';
 
 const Profile = ({ otherClasses }: Props) => {
   return (
-    <div>
+    <>
       <Card className={`border-none shadow-none rounded-none ${otherClasses}`}>
         <CardHeader className='flex items-center'>
           <CardTitle>
@@ -42,27 +42,27 @@ const Profile = ({ otherClasses }: Props) => {
             </Avatar>
           </CardTitle>
           <CardDescription className='text-zinc-900'>
-            <p className='text-2xl text-center font-bold mb-2'>
+            <span className='text-2xl flex flex-row justify-center font-bold mb-2'>
               ジョン・ホーン
-            </p>
-            <p className='text-lg flex flex-row items-center'>
+            </span>
+            <span className='text-lg flex flex-row items-center'>
               <FaCode className='mr-4 w-5 h-5' />
               フルスタックデベロッパー
-            </p>
-            <p className='text-lg flex flex-row items-center'>
+            </span>
+            <span className='text-lg flex flex-row items-center'>
               <FaRegImages className='mr-4 w-5 h-5' />
               デザイナー
-            </p>
-            <p className='text-lg flex flex-row items-center'>
+            </span>
+            <span className='text-lg flex flex-row items-center'>
               <FaCameraRetro className='mr-4 w-5 h-5' />
               カメラマン
-            </p>
+            </span>
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <p>年齢: {currentYear - 1978}</p>
-          <p>国籍は: アメリカ人</p>
-          <p>言語：英語、日本語</p>
+          年齢: {currentYear - 1978} <br />
+          国籍は: アメリカ人 <br />
+          言語: 英語、日本語
         </CardContent>
         <CardFooter className='flex flex-row justify-center mx-auto gap-4'>
           <LinkedinShareButton url={myPage}>
@@ -82,7 +82,7 @@ const Profile = ({ otherClasses }: Props) => {
           </FacebookShareButton>
         </CardFooter>
       </Card>
-    </div>
+    </>
   );
 };
 export default Profile;
