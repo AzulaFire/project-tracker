@@ -21,13 +21,15 @@ const LinkPreview = ({ name, imgUrl, description, url, icons }: Props) => {
   return (
     <HoverCard>
       <HoverCardTrigger>
-        <Image
-          src={imgUrl}
-          alt={name}
-          width={230}
-          height={170}
-          className='shadow-lg cursor-pointer w-[230px] h-[170px]'
-        />
+        <Link href={url} target='_Blank'>
+          <Image
+            src={imgUrl}
+            alt={name}
+            width={230}
+            height={170}
+            className='shadow-lg cursor-pointer w-[230px] h-[170px]'
+          />
+        </Link>
       </HoverCardTrigger>
       <HoverCardContent className='max-w-[230px] h-auto'>
         <div>{name}</div>
