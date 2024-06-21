@@ -14,6 +14,7 @@ import {
   img12,
   img13,
   img14,
+  img15,
 } from '@/app/assets/images';
 
 import {
@@ -152,6 +153,14 @@ export const projects = [
     description: 'ニュース感情アプリ',
     url: 'https://news-sentiment.streamlit.app/',
     icons: [python, html, css, js],
+  },
+  {
+    id: 15,
+    imgUrl: img15,
+    name: 'GunDown League',
+    description: 'ビデオゲームサイト',
+    url: 'https://gundownleague.vercel.app/',
+    icons: [node, next, html, css, js],
   },
 ];
 

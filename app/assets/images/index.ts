@@ -13,6 +13,7 @@ import img11 from './11.png';
 import img12 from './12.png';
 import img13 from './13.png';
 import img14 from './14.png';
+import img15 from './15.png';
 import logo from './logo.png';
 import john from './john.png';
 import bg from './bg.jpg';
@@ -33,6 +34,7 @@ export {
   img12,
   img13,
   img14,
+  img15,
   logo,
   john,
   bg,
