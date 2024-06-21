@@ -12,7 +12,7 @@ export default function Home() {
           <Header />
         </div>
       </div>
-      <div className='mx-auto grid grid-cols-1 lg:grid-cols-12 mb-4'>
+      <div className='mx-auto grid grid-cols-1 lg:grid-cols-12 pb-4'>
         <div id='leftCol' className='col-span-2 hidden lg:block'>
           <Technologies />
         </div>
