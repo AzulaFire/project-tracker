@@ -5,6 +5,10 @@ import Technologies from './components/Technologies';
 import { projects } from './constants';
 
 export default function Home() {
+  const sortedProjects = [...projects].sort(
+    (a, b) => new Date(b.released).getTime() - new Date(a.released).getTime()
+  );
+
   return (
     <main className='w-full min-h-screen bg-slate-400'>
       <div>
@@ -18,7 +22,7 @@ export default function Home() {
         </div>
         <div className='col-span-8 bg-gradient-to-b from-slate-400 to-slate-500'>
           <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 place-items-center'>
-            {projects.map((project) => (
+            {sortedProjects.map((project) => (
               <div key={project.id}>
                 <LinkPreview {...project} />
               </div>

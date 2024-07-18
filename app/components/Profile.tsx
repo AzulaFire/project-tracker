@@ -45,17 +45,17 @@ const Profile = ({ otherClasses }: Props) => {
             <span className='text-2xl flex flex-row justify-center font-bold mb-2'>
               ジョン・ホーン
             </span>
-            <span className='text-lg flex flex-row items-center'>
-              <FaCode className='mr-4 w-5 h-5' />
-              フルスタックデベロッパー
+            <span className='text-lg flex flex-row items-center my-2'>
+              <FaCode className='mr-4 w-4 h-4' />
+              <span className='text-sm'>フルスタックデベロッパー</span>
+            </span>
+            <span className='text-lg flex flex-row items-center my-2'>
+              <FaRegImages className='mr-4 w-4 h-4' />
+              <span className='text-sm'>デザイナー</span>
             </span>
             <span className='text-lg flex flex-row items-center'>
-              <FaRegImages className='mr-4 w-5 h-5' />
-              デザイナー
-            </span>
-            <span className='text-lg flex flex-row items-center'>
-              <FaCameraRetro className='mr-4 w-5 h-5' />
-              カメラマン
+              <FaCameraRetro className='mr-4 w-4 h-4' />
+              <span className='text-sm'>カメラマン</span>
             </span>
           </CardDescription>
         </CardHeader>

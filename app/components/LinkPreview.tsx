@@ -7,6 +7,11 @@ import {
 } from '@/components/ui/hover-card';
 import { Button } from '@/components/ui/button';
 import { FaCircleArrowRight } from 'react-icons/fa6';
+import ProgressBadge from './ProgressBadge';
+import { url } from 'inspector';
+import { icons } from 'lucide-react';
+import { Project } from 'next/dist/build/swc';
+import style from 'styled-jsx/style';
 
 interface Props {
   id: number;
@@ -15,21 +20,49 @@ interface Props {
   description: string;
   url: string;
   icons: StaticImageData[];
+  released: string;
+  status: string;
 }
 
-const LinkPreview = ({ name, imgUrl, description, url, icons }: Props) => {
+const LinkPreview = ({
+  name,
+  imgUrl,
+  description,
+  url,
+  icons,
+  released,
+  status,
+}: Props) => {
+  // Function to check if the date is within the last 30 days
+  const isRecent = (dateString: string): boolean => {
+    const now = new Date();
+    const date = new Date(dateString);
+    const thirtyDaysAgo = new Date();
+    thirtyDaysAgo.setDate(now.getDate() - 30);
+
+    return date >= thirtyDaysAgo;
+  };
+
   return (
     <HoverCard>
       <HoverCardTrigger>
-        <Link href={url} target='_Blank'>
+        <div style={{ position: 'relative', display: 'inline-block' }}>
+          {status === 'working' ? <ProgressBadge label='In Progress' /> : null}
+          {isRecent(released) && status !== 'working' ? (
+            <ProgressBadge label='New' />
+          ) : null}
           <Image
             src={imgUrl}
             alt={name}
             width={230}
             height={170}
-            className='shadow-lg cursor-pointer w-[230px] h-[170px]'
+            style={{
+              width: '100%',
+              height: 'auto',
+            }}
+            className='shadow-lg w-[230px] h-[170px]'
           />
-        </Link>
+        </div>
       </HoverCardTrigger>
       <HoverCardContent className='max-w-[230px] h-auto'>
         <div>{name}</div>

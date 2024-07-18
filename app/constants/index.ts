@@ -15,6 +15,11 @@ import {
   img13,
   img14,
   img15,
+  img16,
+  img17,
+  img18,
+  img19,
+  img20,
 } from '@/app/assets/images';
 
 import {
@@ -32,6 +37,8 @@ import {
   ts,
   vue,
 } from '@/app/assets/Icons';
+import { url } from 'inspector';
+import { icons } from 'lucide-react';
 
 export const projects = [
   {
@@ -41,6 +48,8 @@ export const projects = [
     description: 'ホームページ',
     url: 'https://www.azulafire.com/',
     icons: [html, css, js],
+    released: '2023-11-20',
+    status: 'completed',
   },
   {
     id: 1,
@@ -49,6 +58,8 @@ export const projects = [
     description: 'ナイキスプラッシュページ',
     url: 'https://projects.azulafire.com/Nike/',
     icons: [node, react, html, css, js],
+    released: '2024-06-13',
+    status: 'completed',
   },
   {
     id: 2,
@@ -57,6 +68,8 @@ export const projects = [
     description: 'ブログ',
     url: 'https://blog-app-phi-sooty.vercel.app/',
     icons: [node, next, html, css, js],
+    released: '2024-05-31',
+    status: 'completed',
   },
   {
     id: 3,
@@ -65,6 +78,8 @@ export const projects = [
     description: '予算トラッカー',
     url: 'https://budget-app-eight-green.vercel.app/',
     icons: [node, react, html, css, js],
+    released: '2024-05-22',
+    status: 'completed',
   },
   {
     id: 4,
@@ -73,6 +88,8 @@ export const projects = [
     description: 'ゲームサイト',
     url: 'https://game-hub-xi-bay.vercel.app/',
     icons: [node, react, html, css, ts],
+    released: '2023-12-15',
+    status: 'completed',
   },
   {
     id: 5,
@@ -81,6 +98,8 @@ export const projects = [
     description: 'グーグル採用クローン',
     url: 'https://www.azulafire.com/JobSearch/',
     icons: [vue, firebase, html, css, js],
+    released: '2023-11-17',
+    status: 'completed',
   },
   {
     id: 6,
@@ -89,6 +108,8 @@ export const projects = [
     description: '日本語漢字ツール',
     url: 'https://kanji-friend.vercel.app/',
     icons: [node, react, html, css, js],
+    released: '2024-05-10',
+    status: 'completed',
   },
   {
     id: 7,
@@ -97,6 +118,8 @@ export const projects = [
     description: 'レストランウェブサイト',
     url: 'https://www.azulafire.com/OmniFood/index.html',
     icons: [html, css, js],
+    released: '2018-07-07',
+    status: 'completed',
   },
   {
     id: 8,
@@ -105,6 +128,8 @@ export const projects = [
     description: '賃貸物件サイト',
     url: 'https://next-js-property-pulse.vercel.app/',
     icons: [node, next, html, css, js],
+    released: '2024-04-10',
+    status: 'completed',
   },
   {
     id: 9,
@@ -113,6 +138,8 @@ export const projects = [
     description: '国際パーティーサイト',
     url: 'https://www.azulafire.com/PartySapporo/index.html',
     icons: [php, html, css, js],
+    released: '2019-01-01',
+    status: 'completed',
   },
   {
     id: 10,
@@ -121,6 +148,8 @@ export const projects = [
     description: 'アニメサイト',
     url: 'https://anime-vault-nu-ochre.vercel.app/',
     icons: [node, next, html, css, ts],
+    released: '2024-06-03',
+    status: 'completed',
   },
   {
     id: 11,
@@ -129,6 +158,8 @@ export const projects = [
     description: 'ゲームニュースサイト',
     url: 'https://gaming-news.streamlit.app/',
     icons: [python, html, css, js],
+    released: '2023-09-16',
+    status: 'completed',
   },
   {
     id: 12,
@@ -137,6 +168,8 @@ export const projects = [
     description: '天気予報サイト',
     url: 'https://weather-view.streamlit.app/',
     icons: [python, html, css, js],
+    released: '2023-12-12',
+    status: 'completed',
   },
   {
     id: 13,
@@ -145,6 +178,8 @@ export const projects = [
     description: 'レシピアプリ',
     url: 'https://python-recipe-app.streamlit.app/',
     icons: [python, html, css, js],
+    released: '2023-12-15',
+    status: 'completed',
   },
   {
     id: 14,
@@ -153,6 +188,8 @@ export const projects = [
     description: 'ニュース感情アプリ',
     url: 'https://news-sentiment.streamlit.app/',
     icons: [python, html, css, js],
+    released: '2023-11-02',
+    status: 'completed',
   },
   {
     id: 15,
@@ -161,6 +198,58 @@ export const projects = [
     description: 'ビデオゲームサイト',
     url: 'https://gundownleague.vercel.app/',
     icons: [node, next, html, css, js],
+    released: '2024-06-21',
+    status: 'completed',
+  },
+  {
+    id: 16,
+    imgUrl: img16,
+    name: 'TechnoFlow',
+    description: '技術ソリューションシステム',
+    url: 'https://dev-quest-two.vercel.app/',
+    icons: [node, next, html, css, js],
+    released: '2024-06-06',
+    status: 'working',
+  },
+  {
+    id: 17,
+    imgUrl: img17,
+    name: 'Text to Image AI Generator',
+    description: 'テキストからAIへの画像生成',
+    url: 'https://ai-image-app-gilt.vercel.app/',
+    icons: [node, next, html, css, js],
+    released: '2024-05-24',
+    status: 'working',
+  },
+  {
+    id: 18,
+    imgUrl: img18,
+    name: 'Technical Documentation System',
+    description: '技術文書システム',
+    url: 'https://doc-system.vercel.app/',
+    icons: [node, next, html, css, js],
+    released: '2024-07-10',
+    status: 'working',
+  },
+  {
+    id: 19,
+    imgUrl: img19,
+    name: 'Kanban Board',
+    description: 'カンバンToDoウェブサイト',
+    url: 'https://kanban-board-sigma-kohl.vercel.app/',
+    icons: [node, react, html, css, js],
+    released: '2024-07-19',
+    status: 'completed',
+  },
+  {
+    id: 20,
+    imgUrl: img20,
+    name: 'Decision Matrix',
+    description: 'デシジョンマトリックスシステム',
+    url: 'https://decision-matrix-one.vercel.app/',
+    icons: [node, next, html, css, js],
+    released: '2024-06-25',
+    status: 'working',
   },
 ];
 
