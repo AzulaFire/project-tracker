@@ -8,12 +8,8 @@ import {
 import { Button } from '@/components/ui/button';
 import { FaCircleArrowRight } from 'react-icons/fa6';
 import ProgressBadge from './ProgressBadge';
-import { url } from 'inspector';
-import { icons } from 'lucide-react';
-import { Project } from 'next/dist/build/swc';
-import style from 'styled-jsx/style';
 
-interface Props {
+export interface Props {
   id: number;
   name: string;
   imgUrl: StaticImageData;
@@ -51,20 +47,10 @@ const LinkPreview = ({
           {isRecent(released) && status !== 'working' ? (
             <ProgressBadge label='New' />
           ) : null}
-          <Image
-            src={imgUrl}
-            alt={name}
-            width={230}
-            height={170}
-            style={{
-              width: '100%',
-              height: 'auto',
-            }}
-            className='shadow-lg w-[230px] h-[170px]'
-          />
+          <Image src={imgUrl} alt={name} className='shadow-lg' />
         </div>
       </HoverCardTrigger>
-      <HoverCardContent className='max-w-[230px] h-auto'>
+      <HoverCardContent className='h-auto'>
         <div>{name}</div>
         <div className='text-sm text-zinc-700'>{description}</div>
         <div className='flex flex-row my-2'>

@@ -1,6 +1,6 @@
+import DrawerPreview from './components/DrawerPreview';
 import Expierence from './components/Expierence';
 import Header from './components/Header';
-import LinkPreview from './components/LinkPreview';
 import Technologies from './components/Technologies';
 import { projects } from './constants';
 
@@ -24,7 +24,7 @@ export default function Home() {
           <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 place-items-center'>
             {sortedProjects.map((project) => (
               <div key={project.id}>
-                <LinkPreview {...project} />
+                <DrawerPreview {...project} />
               </div>
             ))}
           </div>

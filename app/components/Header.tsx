@@ -11,7 +11,6 @@ import {
 } from '@/components/ui/sheet';
 import { hamburger } from '../assets/Icons';
 import Profile from './Profile';
-import Technologies from './Technologies';
 
 const Header = () => {
   return (

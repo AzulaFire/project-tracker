@@ -1,0 +1,108 @@
+Here are short descriptions for each of the web applications you've created:
+
+1. **カンバンボード
+   - 作業の可視化、ワークフローの管理、効率化を実現するデジタルプロジェクト管理ツール。
+2. **技術文書システム
+   - プロジェクトスコープ、機能要件、非機能要件を取得・整理し、フォーマットされたPDFにデータをエクスポートします。Next.jsで構築。
+3. **意思決定マトリックス
+   - メトリックベースの評価で意思決定を簡素化します。Next.jsで開発。
+4. **GunDown League**
+   - Next.jsで構築された、スピード感あふれるアクションFPS/スポーツゲームのWebサイト。
+5. **ナイキ×ジョーダン
+   - React.jsで開発された、ナイキのジョーダンシューズを紹介するスタイリッシュなウェブサイト。
+6. **テクノフロー
+   - Next.jsで実装された、技術的な質問のためのStackOverflowのようなQ&Aプラットフォーム。
+7. **アニメVault**。
+   - Next.jsで実装された、ユーザー評価付きのアニメとマンガのカタログ。
+8. **コードシャッター
+   - Next.js、React、Pythonを使ったWebアプリ開発を探求する個人ブログ。
+9. **テキストから画像を生成するAIジェネレーター
+   - Next.jsを使って、テキスト入力から画像を生成するAI。
+10. **月次予算トラッカー
+    - React.jsベースのWebアプリで家計管理をサポート。
+11. **漢字フレンド
+    - React.jsで開発された日本の漢字学習アプリ。
+12. **物件パルス
+    - Next.jsで作られた、ユーザーのニーズに合わせた物件を発見するプラットフォーム。
+13. **ゲーマーズハブ
+    - React.jsを使って構築された、ランキングをフィーチャーしたゲームサイト。
+14. **フードラバーズ
+    - Pythonベースのレシピ検索サイト。
+15. **Weather Forecaster**
+    - 天気予報のための Python アプリケーション。
+16. **AzulaFire**
+    - HTML5、CSS3、JavaScriptで開発されたプロジェクト、スキル、経験を紹介する個人ポートフォリオ。
+17. **Google Careers Clone**
+    - Google CareersのVue.jsベースのクローン。
+18. **新しいセンチメント分析**。
+    - Pythonで実装されたセンチメント分析のためのWebアプリケーション。
+19. **ゲーマーズ｜ライジング
+    - Pythonベースのゲームニュースサイト。
+20. **パーティー札幌
+    - 友好と文化交流を促進する札幌国際交流パーティーのウェブサイト。
+21. **オムニフーズ
+    - HTML、CSS、JavaScriptを使用して開発されたレストランのウェブサイト。
+
+
+1. **Kanban Board**
+   - A digital project management tool to visualize work, manage workflow, and enhance efficiency.
+   
+2. **Technical Documentation System**
+   - Captures and organizes project scope, functional and non-functional requirements, exporting data into formatted PDFs. Built with Next.js.
+
+3. **Decision Matrix**
+   - Simplifies decision-making with metric-based evaluations. Developed using Next.js.
+
+4. **GunDown League**
+   - Website for a fast-paced action FPS/sports game, built with Next.js.
+
+5. **Nike x Jordan**
+   - Stylish website showcasing Nike Jordan shoes, developed in React.js.
+
+6. **TechnoFlow**
+   - Q&A platform akin to StackOverflow for technical questions, implemented in Next.js.
+
+7. **Anime Vault**
+   - Catalog of anime and manga with user ratings, powered by Next.js.
+
+8. **CodeShutter**
+   - Personal blog exploring web app development with Next.js, React, and Python.
+
+9. **Text to Image AI Generator**
+   - Utilizes AI to generate images from text inputs, using Next.js.
+
+10. **Monthly Budget Tracker**
+    - Helps manage finances with a React.js-based web app.
+
+11. **Kanji Friend**
+    - Japanese Kanji study application developed in React.js.
+
+12. **Property Pulse**
+    - Platform to discover properties tailored to user needs, created with Next.js.
+
+13. **Gamers Hub**
+    - Gaming website featuring rankings, built using React.js.
+
+14. **Food Lovers**
+    - Python-based recipe website for searching recipes.
+
+15. **Weather Forecaster**
+    - Python application for weather forecasting.
+
+16. **AzulaFire**
+    - Personal portfolio showcasing projects, skills, and experience, developed with HTML5, CSS3, and JavaScript.
+
+17. **Google Careers Clone**
+    - Vue.js-based clone of Google Careers.
+
+18. **New Sentiment Analysis**
+    - Web application for sentiment analysis, implemented in Python.
+
+19. **Gamers | Rising**
+    - Python-based gaming news site.
+
+20. **Party Sapporo**
+    - Website for Sapporo International Party events promoting friendship and cultural exchange.
+
+21. **OmniFoods**
+    - Restaurant website developed using HTML, CSS, and JavaScript.
