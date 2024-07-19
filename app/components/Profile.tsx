@@ -22,6 +22,7 @@ import {
 } from 'next-share';
 import profileImage from '@/app/assets/images/john.png';
 import { FaCode, FaRegImages, FaCameraRetro } from 'react-icons/fa';
+import { url } from 'inspector';
 
 interface Props {
   otherClasses: string;
@@ -47,7 +48,7 @@ const Profile = ({ otherClasses }: Props) => {
             </span>
             <span className='text-lg flex flex-row items-center my-2'>
               <FaCode className='mr-4 w-4 h-4' />
-              <span className='text-sm'>フルスタックデベロッパー</span>
+              <span className='text-sm'>システムエンジニア</span>
             </span>
             <span className='text-lg flex flex-row items-center my-2'>
               <FaRegImages className='mr-4 w-4 h-4' />
