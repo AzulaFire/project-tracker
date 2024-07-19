@@ -10,7 +10,7 @@ export default function Home() {
   );
 
   return (
-    <main className='w-full min-h-screen bg-slate-400 hideScroll'>
+    <main className='w-full min-h-screen bg-slate-400 hideScroll no-scrollbar'>
       <div>
         <div id='header' className='w-full'>
           <Header />
