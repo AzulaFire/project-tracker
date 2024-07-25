@@ -19,6 +19,7 @@ import img17 from './17.png';
 import img18 from './18.png';
 import img19 from './19.png';
 import img20 from './20.png';
+import img21 from './21.png';
 import logo from './logo.png';
 import john from './john.png';
 import bg from './bg.jpg';
@@ -45,6 +46,7 @@ export {
   img18,
   img19,
   img20,
+  img21,
   logo,
   john,
   bg,

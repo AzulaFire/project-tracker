@@ -20,6 +20,7 @@ import {
   img18,
   img19,
   img20,
+  img21,
 } from '@/app/assets/images';
 
 import {
@@ -45,7 +46,8 @@ export const projects = [
     id: 0,
     imgUrl: img0,
     name: 'AzulaFire Portfolio',
-    description: 'ホームページ - HTML5、CSS3、JavaScriptで開発されたプロジェクト、スキル、経験を紹介する個人ポートフォリオ。',
+    description:
+      'ホームページ - HTML5、CSS3、JavaScriptで開発されたプロジェクト、スキル、経験を紹介する個人ポートフォリオ。',
     url: 'https://www.azulafire.com/',
     icons: [html, css, js],
     released: '2023-11-20',
@@ -55,7 +57,8 @@ export const projects = [
     id: 1,
     imgUrl: img1,
     name: 'Nike x Jordan',
-    description: 'ナイキスプラッシュページ - React.jsで開発された、ナイキのジョーダンシューズを紹介するスタイリッシュなウェブサイト。',
+    description:
+      'ナイキスプラッシュページ - React.jsで開発された、ナイキのジョーダンシューズを紹介するスタイリッシュなウェブサイト。',
     url: 'https://projects.azulafire.com/Nike/',
     icons: [node, react, html, css, js],
     released: '2024-06-13',
@@ -65,7 +68,8 @@ export const projects = [
     id: 2,
     imgUrl: img2,
     name: 'AzulaFire Blog',
-    description: 'ブログ - Next.js、React、Pythonを使ったWebアプリ開発を探求する個人ブログ。',
+    description:
+      'ブログ - Next.js、React、Pythonを使ったWebアプリ開発を探求する個人ブログ。',
     url: 'https://blog-app-phi-sooty.vercel.app/',
     icons: [node, next, html, css, js],
     released: '2024-05-31',
@@ -75,7 +79,8 @@ export const projects = [
     id: 3,
     imgUrl: img3,
     name: 'Monthly Budget Tracker',
-    description: '予算トラッカー - React.jsベースのWebアプリで家計管理をサポート。',
+    description:
+      '予算トラッカー - React.jsベースのWebアプリで家計管理をサポート。',
     url: 'https://budget-app-eight-green.vercel.app/',
     icons: [node, react, html, css, js],
     released: '2024-05-22',
@@ -85,7 +90,8 @@ export const projects = [
     id: 4,
     imgUrl: img4,
     name: 'Gamers Hub',
-    description: 'ゲームサイト - React.jsを使って構築された、ランキングをフィーチャーしたゲームサイト。',
+    description:
+      'ゲームサイト - React.jsを使って構築された、ランキングをフィーチャーしたゲームサイト。',
     url: 'https://game-hub-xi-bay.vercel.app/',
     icons: [node, react, html, css, ts],
     released: '2023-12-15',
@@ -95,7 +101,8 @@ export const projects = [
     id: 5,
     imgUrl: img5,
     name: 'Google Careers Clone',
-    description: 'グーグル採用クローン - Google CareersのVue.jsベースのクローン。',
+    description:
+      'グーグル採用クローン - Google CareersのVue.jsベースのクローン。',
     url: 'https://www.azulafire.com/JobSearch/',
     icons: [vue, firebase, html, css, js],
     released: '2023-11-17',
@@ -105,7 +112,8 @@ export const projects = [
     id: 6,
     imgUrl: img6,
     name: 'Kanji Friend',
-    description: '日本語漢字ツール - React.jsで開発された日本の漢字学習アプリ。',
+    description:
+      '日本語漢字ツール - React.jsで開発された日本の漢字学習アプリ。',
     url: 'https://kanji-friend.vercel.app/',
     icons: [node, react, html, css, js],
     released: '2024-05-10',
@@ -115,7 +123,8 @@ export const projects = [
     id: 7,
     imgUrl: img7,
     name: 'OmniFoods',
-    description: 'レストランウェブサイト - HTML、CSS、JavaScriptを使用して開発されたレストランのウェブサイト。',
+    description:
+      'レストランウェブサイト - HTML、CSS、JavaScriptを使用して開発されたレストランのウェブサイト。',
     url: 'https://www.azulafire.com/OmniFood/index.html',
     icons: [html, css, js],
     released: '2018-07-07',
@@ -125,7 +134,8 @@ export const projects = [
     id: 8,
     imgUrl: img8,
     name: 'Property Pulse',
-    description: '賃貸物件サイト - Next.jsで作られた、ユーザーのニーズに合わせた物件を発見するプラットフォーム。',
+    description:
+      '賃貸物件サイト - Next.jsで作られた、ユーザーのニーズに合わせた物件を発見するプラットフォーム。',
     url: 'https://next-js-property-pulse.vercel.app/',
     icons: [node, next, html, css, js],
     released: '2024-04-10',
@@ -135,7 +145,8 @@ export const projects = [
     id: 9,
     imgUrl: img9,
     name: 'Party Sapporo',
-    description: '国際パーティーサイト - 友好と文化交流を促進する札幌国際交流パーティーのウェブサイト。',
+    description:
+      '国際パーティーサイト - 友好と文化交流を促進する札幌国際交流パーティーのウェブサイト。',
     url: 'https://www.azulafire.com/PartySapporo/index.html',
     icons: [php, html, css, js],
     released: '2019-01-01',
@@ -145,7 +156,8 @@ export const projects = [
     id: 10,
     imgUrl: img10,
     name: 'Anime Vault',
-    description: 'アニメサイト - Next.jsで実装された、ユーザー評価付きのアニメとマンガのカタログ。',
+    description:
+      'アニメサイト - Next.jsで実装された、ユーザー評価付きのアニメとマンガのカタログ。',
     url: 'https://anime-vault-nu-ochre.vercel.app/',
     icons: [node, next, html, css, ts],
     released: '2024-06-03',
@@ -185,7 +197,8 @@ export const projects = [
     id: 14,
     imgUrl: img14,
     name: 'News Sentiment Analysis',
-    description: 'ニュース感情アプリ - Pythonで実装されたセンチメント分析のためのWebアプリケーション。',
+    description:
+      'ニュース感情アプリ - Pythonで実装されたセンチメント分析のためのWebアプリケーション。',
     url: 'https://news-sentiment.streamlit.app/',
     icons: [python, html, css, js],
     released: '2023-11-02',
@@ -195,7 +208,8 @@ export const projects = [
     id: 15,
     imgUrl: img15,
     name: 'GunDown League',
-    description: 'ビデオゲームサイト - Next.jsで構築された、スピード感あふれるアクションFPS/スポーツゲームのWebサイト。',
+    description:
+      'ビデオゲームサイト - Next.jsで構築された、スピード感あふれるアクションFPS/スポーツゲームのWebサイト。',
     url: 'https://gundownleague.vercel.app/',
     icons: [node, next, html, css, js],
     released: '2024-06-21',
@@ -205,7 +219,8 @@ export const projects = [
     id: 16,
     imgUrl: img16,
     name: 'TechnoFlow',
-    description: '技術ソリューションシステム - Next.jsで実装された、技術的な質問のためのStackOverflowのようなQ&Aプラットフォーム。',
+    description:
+      '技術ソリューションシステム - Next.jsで実装された、技術的な質問のためのStackOverflowのようなQ&Aプラットフォーム。',
     url: 'https://dev-quest-two.vercel.app/',
     icons: [node, next, html, css, js],
     released: '2024-06-06',
@@ -215,7 +230,8 @@ export const projects = [
     id: 17,
     imgUrl: img17,
     name: 'Text to Image AI Generator',
-    description: 'テキストからAIへの画像生成 - Next.jsを使って、テキスト入力から画像を生成するAI。',
+    description:
+      'テキストからAIへの画像生成 - Next.jsを使って、テキスト入力から画像を生成するAI。',
     url: 'https://ai-image-app-gilt.vercel.app/',
     icons: [node, next, html, css, js],
     released: '2024-05-24',
@@ -225,7 +241,8 @@ export const projects = [
     id: 18,
     imgUrl: img18,
     name: 'Technical Documentation System',
-    description: '技術文書システム - プロジェクトスコープ、機能要件、非機能要件を取得・整理し、フォーマットされたPDFにデータをエクスポートします。Next.jsで構築。',
+    description:
+      '技術文書システム - プロジェクトスコープ、機能要件、非機能要件を取得・整理し、フォーマットされたPDFにデータをエクスポートします。Next.jsで構築。',
     url: 'https://doc-system.vercel.app/',
     icons: [node, next, html, css, js],
     released: '2024-07-10',
@@ -246,11 +263,22 @@ export const projects = [
     id: 20,
     imgUrl: img20,
     name: 'Decision Matrix',
-    description: 'デシジョンマトリックスシステム - メトリックベースの評価で意思決定を簡素化します。Next.jsで開発。',
+    description:
+      'デシジョンマトリックスシステム - メトリックベースの評価で意思決定を簡素化します。Next.jsで開発。',
     url: 'https://decision-matrix-one.vercel.app/',
     icons: [node, next, html, css, js],
     released: '2024-06-25',
     status: 'working',
+  },
+  {
+    id: 21,
+    imgUrl: img21,
+    name: 'Share A Deal',
+    description: 'Next.jsで複数ページのフォームを作成する場合、サーバーアクション、Zodによるバリデーション、ローカルストレージを使用して、ユーザーがフォームに入力するときの状態を保持します。',
+    url: 'https://multi-page-form-lake.vercel.app/',
+    icons: [node, next, html, css, js],
+    released: '2024-07-25',
+    status: 'completed',
   },
 ];
 
