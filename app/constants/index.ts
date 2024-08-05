@@ -21,6 +21,7 @@ import {
   img19,
   img20,
   img21,
+  img22,
 } from '@/app/assets/images';
 
 import {
@@ -274,10 +275,22 @@ export const projects = [
     id: 21,
     imgUrl: img21,
     name: 'Share A Deal',
-    description: 'Next.jsで複数ページのフォームを作成する場合、サーバーアクション、Zodによるバリデーション、ローカルストレージを使用して、ユーザーがフォームに入力するときの状態を保持します。',
+    description:
+      'Next.jsで複数ページのフォームを作成する場合、サーバーアクション、Zodによるバリデーション、ローカルストレージを使用して、ユーザーがフォームに入力するときの状態を保持します。',
     url: 'https://multi-page-form-lake.vercel.app/',
     icons: [node, next, html, css, js],
     released: '2024-07-25',
+    status: 'completed',
+  },
+  {
+    id: 22,
+    imgUrl: img22,
+    name: 'Coffee Shop',
+    description:
+      'コーヒーショップのフルスタックウェブサイトで、MongoDBデータベースに接続されたNodejs Apiバックエンドとreactフロントエンドのデザイン。',
+    url: 'https://coffee-shop-iota-mocha.vercel.app/',
+    icons: [node, react, html, css, js],
+    released: '2024-08-05',
     status: 'completed',
   },
 ];
