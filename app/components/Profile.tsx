@@ -8,21 +8,9 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import {
-  LinkedinShareButton,
-  LinkedinIcon,
-  TwitterShareButton,
-  TwitterIcon,
-  InstapaperShareButton,
-  InstapaperIcon,
-  LineShareButton,
-  LineIcon,
-  FacebookShareButton,
-  FacebookIcon,
-} from 'next-share';
+import { LinkedinShareButton, LinkedinIcon } from 'next-share';
 import profileImage from '@/app/assets/images/john.png';
 import { FaCode, FaRegImages, FaCameraRetro } from 'react-icons/fa';
-import { url } from 'inspector';
 
 interface Props {
   otherClasses: string;
@@ -69,18 +57,6 @@ const Profile = ({ otherClasses }: Props) => {
           <LinkedinShareButton url={myPage}>
             <LinkedinIcon size={32} round />
           </LinkedinShareButton>
-          <TwitterShareButton url={myPage}>
-            <TwitterIcon size={32} round />
-          </TwitterShareButton>
-          <LineShareButton url={myPage}>
-            <LineIcon size={32} round />
-          </LineShareButton>
-          <InstapaperShareButton url={myPage}>
-            <InstapaperIcon size={32} round />
-          </InstapaperShareButton>
-          <FacebookShareButton url={myPage}>
-            <FacebookIcon size={32} round />
-          </FacebookShareButton>
         </CardFooter>
       </Card>
     </>
