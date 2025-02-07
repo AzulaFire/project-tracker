@@ -54,17 +54,17 @@ export const projects = [
   //   released: '2023-11-20',
   //   status: 'completed',
   // },
-  // {
-  //   id: 1,
-  //   imgUrl: img1,
-  //   name: 'Nike x Jordan',
-  //   description:
-  //     'ナイキスプラッシュページ - React.jsで開発された、ナイキのジョーダンシューズを紹介するスタイリッシュなウェブサイト。',
-  //   url: 'https://projects.azulafire.com/Nike/',
-  //   icons: [node, react, html, css, js],
-  //   released: '2024-06-13',
-  //   status: 'completed',
-  // },
+  {
+    id: 1,
+    imgUrl: img1,
+    name: 'Nike x Jordan',
+    description:
+      'ナイキスプラッシュページ - React.jsで開発された、ナイキのジョーダンシューズを紹介するスタイリッシュなウェブサイト。',
+    url: 'https://nike-website-seven-murex.vercel.app/',
+    icons: [node, react, html, css, js],
+    released: '2024-06-13',
+    status: 'completed',
+  },
   // {
   //   id: 2,
   //   imgUrl: img2,
