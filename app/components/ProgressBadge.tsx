@@ -11,12 +11,12 @@ const ProgressBadge = ({ label }: Props) => {
     <div
       style={{
         position: 'absolute',
-        top: '5px',
-        right: '5px',
+        top: '10px',
+        right: '10px',
       }}
     >
       {label === 'In Progress' && (
-        <Badge className='bg-cyan-500 drop-shadow shadow'>
+        <Badge className='bg-pink-600 drop-shadow shadow'>
           <RiProgress7Line className='mr-1' />
           {label}
         </Badge>
