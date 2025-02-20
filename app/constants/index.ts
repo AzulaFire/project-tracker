@@ -22,6 +22,9 @@ import {
   img20,
   img21,
   img22,
+  img23,
+  img24,
+  img25,
 } from '@/app/assets/images';
 
 import {
@@ -293,6 +296,37 @@ export const projects = [
     released: '2024-08-05',
     status: 'completed',
   },
+  {
+    id: 23,
+    imgUrl: img23,
+    name: 'Japanese Study List App',
+    description: '日本語の単語や動詞の勉強に役立つシンプルなアプリです。',
+    url: 'https://japaneselist-app.vercel.app/',
+    icons: [node, next, html, css, js],
+    released: '2025-02-01',
+    status: 'completed',
+  },
+  {
+    id: 24,
+    imgUrl: img24,
+    name: 'Memory Game',
+    description: 'シンプルな絵合わせゲーム。',
+    url: 'https://memory-game-gamma-liart.vercel.app/',
+    icons: [node, react, html, css, js],
+    released: '2025-02-10',
+    status: 'working',
+  },
+  {
+    id: 25,
+    imgUrl: img25,
+    name: 'ServiceNow Study App',
+    description:
+      'CSA試験の受験準備に役立つServiceNow認定アドミニストレータのクイズアプリ。',
+    url: 'https://csa-app.vercel.app/',
+    icons: [node, next, html, css, js],
+    released: '2025-02-20',
+    status: 'completed',
+  },
 ];
 
 export const technologies = [
@@ -468,51 +502,56 @@ export const technologies = [
   },
   {
     id: 35,
+    name: 'ServiceNow',
+    level: 'Low',
+  },
+  {
+    id: 36,
     name: 'Shadcn',
     level: 'High',
   },
   {
-    id: 36,
+    id: 37,
     name: 'SQLite',
     level: 'High',
   },
   {
-    id: 37,
+    id: 38,
     name: 'Streamlit',
     level: 'Expert',
   },
   {
-    id: 38,
+    id: 39,
     name: 'TailwindCSS',
     level: 'Expert',
   },
   {
-    id: 39,
+    id: 40,
     name: 'TypeScript',
     level: 'Mid',
   },
   {
-    id: 40,
+    id: 41,
     name: 'UI/UX',
     level: 'High',
   },
   {
-    id: 41,
+    id: 42,
     name: 'VB.NET',
     level: 'High',
   },
   {
-    id: 42,
+    id: 43,
     name: 'VBA',
     level: 'Expert',
   },
   {
-    id: 43,
+    id: 44,
     name: 'VueJS',
     level: 'Mid',
   },
   {
-    id: 44,
+    id: 45,
     name: 'Windows',
     level: 'Expert',
   },
