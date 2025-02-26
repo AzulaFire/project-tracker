@@ -313,8 +313,8 @@ export const projects = [
     description: 'シンプルな絵合わせゲーム。',
     url: 'https://memory-game-gamma-liart.vercel.app/',
     icons: [node, react, html, css, js],
-    released: '2025-02-10',
-    status: 'working',
+    released: '2025-02-25',
+    status: 'completed',
   },
   {
     id: 25,
