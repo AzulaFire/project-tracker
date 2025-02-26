@@ -271,8 +271,8 @@ export const projects = [
       'デシジョンマトリックスシステム - メトリックベースの評価で意思決定を簡素化します。Next.jsで開発。',
     url: 'https://decision-matrix-one.vercel.app/',
     icons: [node, next, html, css, js],
-    released: '2024-06-25',
-    status: 'working',
+    released: '2025-02-26',
+    status: 'completed',
   },
   {
     id: 21,
