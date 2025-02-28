@@ -25,6 +25,7 @@ import {
   img23,
   img24,
   img25,
+  img26,
 } from '@/app/assets/images';
 
 import {
@@ -325,6 +326,17 @@ export const projects = [
     url: 'https://csa-app.vercel.app/',
     icons: [node, next, html, css, js],
     released: '2025-02-20',
+    status: 'completed',
+  },
+  {
+    id: 26,
+    imgUrl: img26,
+    name: 'Notes ToDo App',
+    description:
+      'iOS、Android、Web用のReact Nativeアプリ。完全なCRUD機能を備えたシンプルなメモとToDoアプリ。',
+    url: 'https://notes-app-iota-flame.vercel.app/',
+    icons: [node, react, html, css, js],
+    released: '2025-02-28',
     status: 'completed',
   },
 ];

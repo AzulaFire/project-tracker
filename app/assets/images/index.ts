@@ -24,6 +24,7 @@ import img22 from './22.png';
 import img23 from './23.png';
 import img24 from './24.png';
 import img25 from './25.png';
+import img26 from './26.png';
 import logo from './logo.png';
 import john from './john.png';
 import bg from './bg.jpg';
@@ -55,6 +56,7 @@ export {
   img23,
   img24,
   img25,
+  img26,
   logo,
   john,
   bg,
