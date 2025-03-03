@@ -26,6 +26,7 @@ import {
   img24,
   img25,
   img26,
+  img27,
 } from '@/app/assets/images';
 
 import {
@@ -337,6 +338,17 @@ export const projects = [
     url: 'https://notes-app-iota-flame.vercel.app/',
     icons: [node, react, html, css, js],
     released: '2025-02-28',
+    status: 'completed',
+  },
+  {
+    id: 27,
+    imgUrl: img27,
+    name: 'My Photography App',
+    description:
+      '私の写真ポートフォリオ NextJSで書かれたシンプルな写真グリッド。',
+    url: 'https://photo-app-kohl-sigma.vercel.app/',
+    icons: [node, next, html, css, js],
+    released: '2025-03-03',
     status: 'completed',
   },
 ];
