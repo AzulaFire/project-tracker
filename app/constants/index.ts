@@ -27,6 +27,7 @@ import {
   img25,
   img26,
   img27,
+  img28,
 } from '@/app/assets/images';
 
 import {
@@ -349,6 +350,17 @@ export const projects = [
     url: 'https://photo-app-kohl-sigma.vercel.app/',
     icons: [node, next, html, css, js],
     released: '2025-03-03',
+    status: 'completed',
+  },
+  {
+    id: 28,
+    imgUrl: img28,
+    name: 'City Data App',
+    description:
+      'チャートとグラフを使用して、アリゾナ州フェニックスと日本の札幌の都市データを比較するデータ駆動型の NextJS アプリ。',
+    url: 'https://charts-app-inky.vercel.app/',
+    icons: [node, next, html, css, js],
+    released: '2025-03-07',
     status: 'completed',
   },
 ];
