@@ -28,6 +28,7 @@ import {
   img26,
   img27,
   img28,
+  img29,
 } from '@/app/assets/images';
 
 import {
@@ -361,6 +362,17 @@ export const projects = [
     url: 'https://charts-app-inky.vercel.app/',
     icons: [node, next, html, css, js],
     released: '2025-03-07',
+    status: 'completed',
+  },
+  {
+    id: 29,
+    imgUrl: img29,
+    name: 'TechNavigation App',
+    description:
+      'エンジニアと技術ソリューションのマッチングを支援する、NextJSで書かれたシンプルな技術アプリです。',
+    url: 'https://v-engineer.vercel.app/',
+    icons: [node, next, html, css, js],
+    released: '2025-03-21',
     status: 'completed',
   },
 ];
