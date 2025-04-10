@@ -29,6 +29,7 @@ import {
   img27,
   img28,
   img29,
+  img30,
 } from '@/app/assets/images';
 
 import {
@@ -373,6 +374,16 @@ export const projects = [
     url: 'https://v-engineer.vercel.app/',
     icons: [node, next, html, css, js],
     released: '2025-03-21',
+    status: 'completed',
+  },
+  {
+    id: 30,
+    imgUrl: img30,
+    name: 'MERN Store App',
+    description: 'React、Zustand、MongoDBを使ったMERN Storeアプリケーション。',
+    url: 'https://mern-store-eta.vercel.app/',
+    icons: [node, react, html, css, js],
+    released: '2025-04-10',
     status: 'completed',
   },
 ];
