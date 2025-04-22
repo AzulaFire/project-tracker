@@ -30,6 +30,7 @@ import {
   img28,
   img29,
   img30,
+  img31,
 } from '@/app/assets/images';
 
 import {
@@ -384,6 +385,16 @@ export const projects = [
     url: 'https://mern-store-eta.vercel.app/',
     icons: [node, react, html, css, js],
     released: '2025-04-10',
+    status: 'completed',
+  },
+  {
+    id: 31,
+    imgUrl: img31,
+    name: 'Real Time Chat App',
+    description: 'React、Zustand、MongoDBを使ったチャットアプリケーション。',
+    url: 'https://chat-app-gamma-ecru.vercel.app/',
+    icons: [node, react, html, css, js],
+    released: '2025-04-22',
     status: 'completed',
   },
 ];
