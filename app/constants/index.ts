@@ -31,6 +31,7 @@ import {
   img29,
   img30,
   img31,
+  img32,
 } from '@/app/assets/images';
 
 import {
@@ -395,6 +396,17 @@ export const projects = [
     url: 'https://chat-app-gamma-ecru.vercel.app/',
     icons: [node, react, html, css, js],
     released: '2025-04-22',
+    status: 'completed',
+  },
+  {
+    id: 32,
+    imgUrl: img32,
+    name: 'OCR Scanner App',
+    description:
+      '画像のアップロードを受け付け、日本語または英語のテキストを抽出するNextJSのOCRスキャナーアプリです。',
+    url: 'https://ocr-translator-app.vercel.app/',
+    icons: [node, next, html, css, js],
+    released: '2025-05-12',
     status: 'completed',
   },
 ];
