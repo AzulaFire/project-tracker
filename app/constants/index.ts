@@ -32,6 +32,7 @@ import {
   img30,
   img31,
   img32,
+  img33,
 } from '@/app/assets/images';
 
 import {
@@ -407,6 +408,16 @@ export const projects = [
     url: 'https://ocr-translator-app.vercel.app/',
     icons: [node, next, html, css, js],
     released: '2025-05-12',
+    status: 'completed',
+  },
+  {
+    id: 33,
+    imgUrl: img33,
+    name: 'Mood Mate App',
+    description: 'NextJS ReactとTypeScriptによるムードトラッキングアプリ。',
+    url: 'https://cute-app.vercel.app/',
+    icons: [node, next, html, css, ts],
+    released: '2025-05-16',
     status: 'completed',
   },
 ];
