@@ -33,6 +33,7 @@ import {
   img31,
   img32,
   img33,
+  img34,
 } from '@/app/assets/images';
 
 import {
@@ -418,6 +419,17 @@ export const projects = [
     url: 'https://cute-app.vercel.app/',
     icons: [node, next, html, css, ts],
     released: '2025-05-16',
+    status: 'completed',
+  },
+  {
+    id: 34,
+    imgUrl: img34,
+    name: 'Income Calculator App',
+    description:
+      'TypeSciptと状態管理のためのReduxを使ったReactの収入計算アプリ。',
+    url: 'https://freelance-estimator.vercel.app/',
+    icons: [node, react, html, css, ts],
+    released: '2025-05-19',
     status: 'completed',
   },
 ];
