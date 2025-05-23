@@ -34,6 +34,7 @@ import {
   img32,
   img33,
   img34,
+  img35,
 } from '@/app/assets/images';
 
 import {
@@ -430,6 +431,17 @@ export const projects = [
     url: 'https://freelance-estimator.vercel.app/',
     icons: [node, react, html, css, ts],
     released: '2025-05-19',
+    status: 'completed',
+  },
+  {
+    id: 35,
+    imgUrl: img35,
+    name: 'PULSE Personality Test App',
+    description:
+      'NextJSでコーディングされた、新しいモダンなパーソナリティアプリ。',
+    url: 'https://personality-app-navy.vercel.app/',
+    icons: [node, next, html, css, ts],
+    released: '2025-05-23',
     status: 'completed',
   },
 ];

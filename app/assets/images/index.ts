@@ -33,6 +33,7 @@ import img31 from './31.png';
 import img32 from './32.png';
 import img33 from './33.png';
 import img34 from './34.png';
+import img35 from './35.png';
 import logo from './logo.png';
 import john from './john.png';
 import bg from './bg.jpg';
@@ -73,6 +74,7 @@ export {
   img32,
   img33,
   img34,
+  img35,
   logo,
   john,
   bg,
