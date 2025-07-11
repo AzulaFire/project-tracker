@@ -35,6 +35,7 @@ import {
   img33,
   img34,
   img35,
+  img36,
 } from '@/app/assets/images';
 
 import {
@@ -442,6 +443,16 @@ export const projects = [
     url: 'https://personality-app-navy.vercel.app/',
     icons: [node, next, html, css, ts],
     released: '2025-05-23',
+    status: 'completed',
+  },
+  {
+    id: 36,
+    imgUrl: img36,
+    name: 'Japanese Flashcard App',
+    description: 'NextJSで作られた、日本語のフラッシュカードアプリです。',
+    url: 'https://flashcard-app-sbtq.vercel.app/',
+    icons: [node, next, html, css, ts],
+    released: '2025-07-11',
     status: 'completed',
   },
 ];
