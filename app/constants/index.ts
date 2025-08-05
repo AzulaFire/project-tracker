@@ -36,6 +36,7 @@ import {
   img34,
   img35,
   img36,
+  img37,
 } from '@/app/assets/images';
 
 import {
@@ -453,6 +454,16 @@ export const projects = [
     url: 'https://flashcard-app-sbtq.vercel.app/',
     icons: [node, next, html, css, ts],
     released: '2025-07-11',
+    status: 'completed',
+  },
+  {
+    id: 37,
+    imgUrl: img37,
+    name: 'Work Experience App',
+    description: '英語と日本語の両方で利用できる職業体験アプリ。',
+    url: 'https://work-app-rho.vercel.app/',
+    icons: [node, next, html, css, ts],
+    released: '2025-08-05',
     status: 'completed',
   },
 ];
