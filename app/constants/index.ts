@@ -37,6 +37,7 @@ import {
   img35,
   img36,
   img37,
+  img38,
 } from '@/app/assets/images';
 
 import {
@@ -464,6 +465,17 @@ export const projects = [
     url: 'https://work-app-rho.vercel.app/',
     icons: [node, next, html, css, ts],
     released: '2025-08-05',
+    status: 'completed',
+  },
+  {
+    id: 38,
+    imgUrl: img38,
+    name: 'Cloud Explorer App',
+    description:
+      'エンジニアやセキュリティチームのために、マルチクラウド環境を可視化・分析するインタラクティブなプラットフォーム。',
+    url: 'https://cloud-explorer-seven.vercel.app/',
+    icons: [node, next, html, css, js],
+    released: '2025-10-25',
     status: 'completed',
   },
 ];
