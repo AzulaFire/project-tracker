@@ -38,6 +38,7 @@ import {
   img36,
   img37,
   img38,
+  img39,
 } from '@/app/assets/images';
 
 import {
@@ -476,6 +477,17 @@ export const projects = [
     url: 'https://cloud-explorer-seven.vercel.app/',
     icons: [node, next, html, css, js],
     released: '2025-10-25',
+    status: 'completed',
+  },
+  {
+    id: 39,
+    imgUrl: img39,
+    name: 'Fractured Horizons',
+    description:
+      '近未来の崩壊した東京を舞台に、主人公カイが失われた娘ミア（AIによる再構成）を探して彷徨うSFドラマ小説。孤独、記憶、そして選択の余波を描く物語で、断片的に現れる過去の出来事や手がかりを通じて、読者が真相に迫っていく構成となっている。',
+    url: 'https://fractured-horizons.vercel.app/',
+    icons: [node, next, html, css, js],
+    released: '2025-11-27',
     status: 'completed',
   },
 ];
