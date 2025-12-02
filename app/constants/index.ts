@@ -39,6 +39,7 @@ import {
   img37,
   img38,
   img39,
+  img40,
 } from '@/app/assets/images';
 
 import {
@@ -488,6 +489,17 @@ export const projects = [
     url: 'https://fractured-horizons.vercel.app/',
     icons: [node, next, html, css, js],
     released: '2025-11-27',
+    status: 'completed',
+  },
+  {
+    id: 40,
+    imgUrl: img40,
+    name: 'YomuFox',
+    description:
+      '【Micro SaaS アプリ説明】AIを活用して日本語／英語を学べるツール。翻訳、学習、クイズ機能をひとつのダッシュボードで提供し、効率的な語学学習を実現します。',
+    url: 'https://yomufox.vercel.app/',
+    icons: [node, next, html, css, js],
+    released: '2025-12-02',
     status: 'completed',
   },
 ];
