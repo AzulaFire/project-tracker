@@ -19,7 +19,7 @@ const Header = () => {
         <Image src={logo} alt='Logo' width={50} height={50} />
         <div>
           <span className='font-bold'>A</span>zulaFire Designs -
-          <span className='font-light text-amber-400 pl-2'>[33 Projects]</span>
+          <span className='font-light text-amber-400 pl-2'>[34 Projects]</span>
         </div>
       </div>
 
